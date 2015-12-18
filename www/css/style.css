@@ -97,6 +97,7 @@ body {
 .phone_top .num {
 	font: 42px "myriad_probold";
 	margin: -10px 0px 2px;
+	padding-top: 8px;
 }
 .btn_callback {
 	color: #fff;
@@ -553,7 +554,7 @@ body {
 }
 .block_5_in {
 	background: url(../i/img_20.jpg) no-repeat 10px bottom;
-	height: 2021px;
+	height: 1400px;
 }
 .block_5_in .action_time {
 	margin: 17px 0px 57px 296px;
@@ -565,6 +566,7 @@ body {
 	height: 69px;
 	text-align: center;
 	margin: 0px 0px 30px;
+	padding-top: 9px;
 }
 .rewiev {
 	margin: 0px 0px 10px -49px;
@@ -604,7 +606,7 @@ body {
 }
 .footer_in {
 	margin: auto;
-	height: 266px;
+	height: 280px;
 	width: 1200px;
 	position: relative;
 }
@@ -784,21 +786,22 @@ a:hover {
 }
 
 .desc_images{
-	width: 400px;
+	width: 360px;
 	margin: 10px;
 	float: left;
 }
 
 .desc_text{
 	margin: 10px;
-	width: 650px;
+	width: 700px;
 	float: right;
+	font-size: 20px;
 }
 
 .description{
 	background-color: #ffd700;
 	width: 1100px;
-	height: 480px;
+	height: 400px;
 	margin: auto;
 }
 
@@ -810,14 +813,14 @@ a:hover {
 .door_linings_img_left{
 	float: left;
 	width: 180px;
-	height: 180px;
+	height: 140px;
 	margin-bottom: 10px;
 }
 
 .door_linings_img_right{
 	float: right;
 	width: 180px;
-	height: 180px;
+	height: 140px;
 	margin-bottom: 10px;
 }
 
@@ -837,6 +840,13 @@ a:hover {
 	text-align: center;
 	width: 300px;
 	height: 50px;
+	position: absolute;
+	top: 1550px;
+	left: 550px;
+}
+
+.desc_discount p{
+	padding-top: 9px;
 }
 
 .before_top_linings_img{
@@ -880,4 +890,32 @@ a:hover {
 
 .form_get_present{
 	padding-top: 17px;
+}
+
+.send_review_container{
+	width: 1100px;
+	text-align: center;
+}
+
+.send_review_btn{
+	color: #fff;
+	background: url(../i/btn_callback.jpg) no-repeat;
+	padding: 4px 0px 0px;
+	height: 30px;
+	width: 300px;
+	display: block;
+	font: 21px "artemiussans_sn_light_ttRg";
+	margin: auto;
+}
+
+.send_review_btn:hover{
+	cursor: pointer;
+}
+
+#owner_info{
+	color: #ffffff;
+	position: absolute;
+	left: 48px;
+	top: 200px;
+	font: 12px Arial, Helvetica, sans-serif;
 }

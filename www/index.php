@@ -331,7 +331,11 @@
 так что - рекомендую!</p>
 			</div><!--/rewiev_txt-->
 		</div><!--/rewiev-->
-		
+		<div class="send_review_container">
+			<a class="send_review_btn btn lightbox-53515576718363">
+				Оставить отзыв
+			</a>
+		</div>
 		<h2>Мы доставляем заказы по всей России и миру</h2>
 		
 	</div><!--/block_5_in-->
@@ -358,6 +362,13 @@
 		  });
 		</script>
 		<div id="privacy_policy" class="btn lightbox-53394538693368">Политика конфиденциальности</div>
+		<div id="owner_info">
+			<p>ИП Бобков Д. А.</p>
+			<p>ИНН: 121519574011</p>
+			<p>ОГРНИП: 311121534700135</p>
+			<p>г. Казань, ул. Восстания, д. 115а, офис 15</p>
+			<p>Телефон: 8 (843) 203-39-07</p>
+		</div>
 	</div><!--/footer_in-->
 	
 </div><!--/footer-->
@@ -441,6 +452,19 @@
 	function showAfterLiningBottom(state){
 		document.getElementById('afterLiningBottom').style.display = state;			
 		document.getElementById('wrap').style.display = state;	}	
+</script>
+<script src="https://form.jotformeu.com/static/feedback2.js?3.3.REV" type="text/javascript">
+  var JFL_53515576718363 = new JotformFeedback({
+	formId: '53515576718363',
+	base: 'https://form.jotformeu.com/',
+	windowTitle: 'Добавьте заголовок',
+	background: '#FFA500',
+	fontColor: '#FFFFFF',
+	type: '1',
+	height: 400,
+	width: 400,
+	openOnLoad: false
+  });
 </script>
 </body>
 </html>
